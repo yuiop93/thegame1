@@ -60,7 +60,7 @@ Shader "Custom/toon"
                 float isShadow = step(dot(input.worldNormal, worldLightDir), 0);
                 
                 fixed3 darkCol = tex2D(_MainTex, input.uv).rgb * _Darklight;
-
+                
                 return lerp(col, darkCol, isShadow);
             }
             ENDCG

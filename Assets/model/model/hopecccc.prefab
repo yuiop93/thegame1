@@ -4121,6 +4121,8 @@ GameObject:
   - component: {fileID: 1713699474446677214}
   - component: {fileID: 5089873788614101321}
   - component: {fileID: 8026601006895819091}
+  - component: {fileID: 3819404836165424900}
+  - component: {fileID: 8112734812451638613}
   m_Layer: 0
   m_Name: hopecccc
   m_TagString: Untagged
@@ -4220,8 +4222,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tagToControl: wink
-  duration: 1
-  waitTime: 2
+  blinkDuration: 0.2
+  blinkInterval: 2
+--- !u!114 &3819404836165424900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5360326923143050270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8922cb14562083c4eabfaee1e2ee8c77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 0}
+  zoomSpeed: 10
+  minZoom: 15
+  maxZoom: 60
+--- !u!114 &8112734812451638613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5360326923143050270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617f20c12449be4cbc68b09fe1a5a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sitPosition: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  interactKey: 101
 --- !u!1 &5374749788706733422
 GameObject:
   m_ObjectHideFlags: 0
