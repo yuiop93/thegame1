@@ -78,6 +78,8 @@ namespace StarterAssets
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
+        //attack
+        public bool isAttacking = false;  // 添加一个布尔值来控制移动
 
         // player
         private float _speed;
@@ -213,6 +215,7 @@ namespace StarterAssets
 
         private void Move()
         {
+             if (isAttacking) return;  // 如果正在攻击，停止移动
             // set target speed based on move speed, sprint speed and if sprint is pressed
             float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 

@@ -717,11 +717,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: a6e31409-7b64-42b0-b1ac-7ea3f4a40fe9
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: toonshadertest
+  organizationId: yuiop9311
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

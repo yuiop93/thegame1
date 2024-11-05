@@ -25,7 +25,7 @@ namespace StarterAssets
 		{
 			MoveInput(value.Get<Vector2>());
 		}
-
+        
 		public void OnLook(InputValue value)
 		{
 			if(cursorInputForLook)
@@ -38,7 +38,7 @@ namespace StarterAssets
 		{
 			JumpInput(value.isPressed);
 		}
-
+        
 		public void OnSprint(InputValue value)
 		{
 			SprintInput(value.isPressed);

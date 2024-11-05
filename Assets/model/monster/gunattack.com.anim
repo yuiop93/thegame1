@@ -8627,6 +8627,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.8666667
+        value: -0.06120801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.90000004
         value: -0.08554465
         inSlope: 0.055852283
@@ -9025,7 +9034,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.8333334
-        value: -0.0019263347
+        value: 0.014086142
         inSlope: -0.02227938
         outSlope: -0.02227938
         tangentMode: 0
@@ -32647,6 +32656,15 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
+        time: 0.8666667
+        value: -0.06120801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
         time: 0.90000004
         value: -0.08554465
         inSlope: 0.055852283
@@ -33045,7 +33063,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.8333334
-        value: -0.0019263347
+        value: 0.014086142
         inSlope: -0.02227938
         outSlope: -0.02227938
         tangentMode: 0
@@ -47121,10 +47139,24 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0
+    functionName: SetRotationAngleNegative30
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 0fbbb23701d4bfc48888aa3f905263c4, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.0333333
     functionName: FireLaser
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 6e736e57b0b61bf4c9eed78b7ac0c20d, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.0333333
+    functionName: StopRotation
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 0fbbb23701d4bfc48888aa3f905263c4, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

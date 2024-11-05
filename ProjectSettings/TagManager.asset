@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - wink
+  - weapon
+  - weaponnormal
   layers:
   - Default
   - TransparentFX

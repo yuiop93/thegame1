@@ -35,7 +35,7 @@ public class Hearing : MonoBehaviour
         if (distanceToNoise <= effectiveHearingRange)
         {
             isHearingPlayer = true; // 标记为听到玩家
-            Debug.Log("怪物听到了噪音！");
+            //Debug.Log("怪物听到了噪音！");
         }
     }
 
